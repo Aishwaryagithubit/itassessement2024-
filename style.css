@@ -7,6 +7,11 @@
     list-style: none;
     text-decoration: none;
   }
+
+  body {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
   
     header{
       position: fixed;
@@ -30,6 +35,12 @@
       font-weight: 400;
       transition: all .42s ease;
     }
+    .navmenu li a.active {
+      color: #EE1; 
+      font-weight: bold;
+    }
+    
+      
     .navmenu a:hover{
       color: #EE1;
     }
